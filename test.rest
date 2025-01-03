@@ -1,0 +1,22 @@
+POST https://xr27ekwyw1.execute-api.us-east-1.amazonaws.com/order
+Content-Type: application/json
+
+{
+    "pizza": "Méxicana",
+    "customerId" : "2"
+}
+
+###
+
+POST https://xr27ekwyw1.execute-api.us-east-1.amazonaws.com/order
+Content-Type: application/json
+
+{
+    "orderId":"90fc1e74-a469-4d27-be63-b7a12d81d817",
+    "pizza": "Peperoni",
+    "customerId" : "1"
+}
+
+### 
+GET https://xr27ekwyw1.execute-api.us-east-1.amazonaws.com/order/90fc1e74-a469-4d27-be63-b7a12d81d817
+Content-Type: application/json
